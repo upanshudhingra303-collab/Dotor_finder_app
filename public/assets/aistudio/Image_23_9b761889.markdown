@@ -1,0 +1,214 @@
+---
+name: DocPulse
+colors:
+  surface: '#0f131d'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#bcc9cd'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#869397'
+  outline-variant: '#3d494c'
+  surface-tint: '#4cd7f6'
+  primary: '#4cd7f6'
+  on-primary: '#003640'
+  primary-container: '#06b6d4'
+  on-primary-container: '#00424f'
+  inverse-primary: '#00687a'
+  secondary: '#4fdbc8'
+  on-secondary: '#003731'
+  secondary-container: '#04b4a2'
+  on-secondary-container: '#003f38'
+  tertiary: '#4edea3'
+  on-tertiary: '#003824'
+  tertiary-container: '#1bbd85'
+  on-tertiary-container: '#00452e'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#acedff'
+  primary-fixed-dim: '#4cd7f6'
+  on-primary-fixed: '#001f26'
+  on-primary-fixed-variant: '#004e5c'
+  secondary-fixed: '#71f8e4'
+  secondary-fixed-dim: '#4fdbc8'
+  on-secondary-fixed: '#00201c'
+  on-secondary-fixed-variant: '#005048'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 1.5rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The brand conveys advanced medical precision, reassurance, and modern clinical intelligence. Designed for tech-forward patients navigating complex healthcare ecosystems, the interface substitutes cold, clinical sterility with a serene, nocturnal sanctuary. Every screen prioritizes diagnostic clarity, calm confidence, and immediate access to care.
+
+The aesthetic fuses **Futuristic Minimalism** with **Atmospheric Glassmorphism**:
+- Ultra-deep obsidian and charcoal navy substrates isolate focus and alleviate visual fatigue.
+- Luminous bioluminescent cyan and teal accents serve as navigational beacons and status cues.
+- Subtle frosted transradiancies, sub-pixel borders, and subtle glowing pulse indicators infuse vitality into static clinical data.
+- Generous touch targets engineered specifically for one-handed mobile ergonomics ensure stress-free triage and appointment flows.
+
+## Colors
+
+The palette relies on a carefully calibrated range of dark surfaces paired with photonic accents:
+
+- **Primary Accent (`#06B6D4`)**: Electric Cyan. Directs the primary visual narrative; used for active tab indicators, key interactive actions, and forward motion.
+- **Secondary Accent (`#14B8A6` & `#0EA5E9`)**: High-performance Teal and Sky Blue. Applied to filters, secondary CTA micro-interactions, category chips, and analytical health metrics.
+- **Tertiary (`#10B981`)**: Emerald Green. Dedicated strictly to affirmative status indicators: real-time availability, verified credentials, confirmed appointments, and telemedicine connectivity.
+- **Neutral Bases (`#0B0F19` & `#111827`)**: Canvas Background and Elevated Charcoal Layer. A rich, blue-tinted void that absorbs glare and amplifies content legibility.
+- **Text & Foreground Hierarchy**:
+  - Headings: Crisp Pure White (`#FFFFFF`) for instantaneous optical hierarchy.
+  - Body & Form Text: Soft Muted Slate (`#CBD5E1`) for effortless sustained reading.
+  - Subtext & Captions: Faded Slate (`#94A3B8` / `#64748B`) for auxiliary clinical details and metadata.
+
+## Typography
+
+Plus Jakarta Sans is used across all typographic roles. Its geometric foundation coupled with soft humanist terminals produces a contemporary, clinical feel without appearing cold or machine-like.
+
+- **Headlines**: Set in bold and semi-bold weights with negative letter tracking to preserve tightness against deep dark canvas backgrounds.
+- **Body**: Uses regular weight (`400`) at comfortable line heights (1.4–1.5x) to maintain effortless legibility through dense doctor biographies, treatment tags, and schedules.
+- **Labels & Micro-data**: Rendered in medium to bold weights (`600`/`700`) with expanded tracking for all-caps badges, verification markers, and dynamic schedule tags.
+
+## Layout & Spacing
+
+The layout is built around mobile-first touch ergonomics:
+
+- **Grid Strategy**: Fluid 4-column structure on mobile devices transitioning to an 8-column layout on small tablets. Layouts snap to a strict 4px/8px modular spacing rhythm.
+- **Thumb Zone Optimization**: Primary navigations, urgent action sheets, and core booking flows anchor within the bottom 45% of the viewport. Top areas are reserved for search triggers, contextual badges, and status feedback.
+- **Margins & Gutters**: Standard screen edge margin is `1rem` on mobile, scaling to `1.5rem` on larger displays. Inter-card gap is standardized to `space-md` (`1rem`) to keep grouped metadata readable and distinct.
+
+## Elevation & Depth
+
+Visual hierarchy uses luminous glassmorphic layering and diffuse photonic glows rather than heavy structural shadows:
+
+- **Surface 0 (Canvas)**: `#0B0F19` base substrate.
+- **Surface 1 (Base Cards & Bottom Sheets)**: `#111827` at 85% opacity with a `16px` backdrop-blur filter and an ultra-subtle border stroke (`rgba(255, 255, 255, 0.08)`).
+- **Surface 2 (Interactive Floating Modules & Modals)**: `#1E293B` at 70% opacity, overlaid with a top-lit inner gradient border (`rgba(6, 182, 212, 0.2)` fading to `rgba(255, 255, 255, 0.03)`).
+- **Photonic Glow**: Floating interactive states and active status dots emit a soft, diffused ambient aura (`0 0 16px rgba(6, 182, 212, 0.35)` for cyan, `0 0 14px rgba(16, 185, 129, 0.4)` for live availability).
+
+## Shapes
+
+The interface relies on smooth, expansive curves to soften clinical interactions:
+
+- **Cards & Primary Modules**: Styled with `rounded-2xl` (`1rem` / 16px) corner radiuses to create organic, friendly framing for doctor profiles and service lists.
+- **Inputs & Search Trays**: Styled with `rounded-xl` (`0.75rem` / 12px) to balance structured input with touch ergonomics.
+- **Badges, Filters & Status Pills**: Fully pill-shaped (`9999px`) to create an immediate visual contrast against geometric card layouts.
+
+## Components
+
+### Buttons
+- **Primary Action (Book/Consult)**: Cyan-to-teal linear gradient fill (`from-[#06B6D4] to-[#14B8A6]`), crisp white text (`#FFFFFF`), `rounded-xl`, with a subtle neon floor glow on hover/press. Minimum touch target height of 48px.
+- **Secondary (Profile/Chat)**: Translucent slate background (`rgba(255, 255, 255, 0.06)`), 1px border (`rgba(255, 255, 255, 0.12)`), muted cyan text on active tap.
+- **Ghost/Icon Button**: Pure transparent surface with 44x44px ergonomic touch bounds; icons tinted `#94A3B8`, brightening to `#FFFFFF` when engaged.
+
+### Doctor Discovery Cards
+- Enclosed in `rounded-2xl` containers utilizing the Surface 1 glass treatment.
+- Top-right corner hosts an embedded Emerald status indicator paired with a pulsating halo when the physician is actively on call.
+- Integrated doctor avatar (64x64px, `rounded-xl`) framed by a micro-border of `#0EA5E9` at 30% opacity.
+- Embedded star ratings incorporate amber-gold stars (`#FBBF24`) coupled with crisp numeric tallies in `#CBD5E1`.
+
+### Chips & Filter Pills
+- Pill-shaped (`rounded-full`) tags displaying medical specializations (e.g., "Cardiology", "Neurology", "Pediatrics").
+- **Inactive**: `#111827` surface with `#94A3B8` label and hairline neutral border.
+- **Selected**: Semi-translucent `#06B6D4` background (15% opacity), vibrant cyan border (`#06B6D4`), and pure white text.
+
+### Inputs & Search
+- Recessed slate background (`#0F172A`) featuring an inset search icon in `#64748B`.
+- Active focus state triggers an outer glow of `0 0 0 2px rgba(6, 182, 212, 0.4)` and shifts the border stroke to solid `#06B6D4`.
+- Integrated voice search and specialty quick-clear triggers placed within accessible thumb reach on mobile.
+
+### Badges & Pulsing Indicators
+- **Verified Doctor Pill**: Micro-badge featuring an emerald checkmark shield on a soft emerald tint (`rgba(16, 185, 129, 0.15)`).
+- **Pulse Beacon**: 8px green dot featuring a dual-ring CSS animation expanding outward to simulate a cardiac rhythm, signifying immediate video-call availability.
